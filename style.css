@@ -1,0 +1,153 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.search-bar {
+    display: flex;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 2px;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #ff9f00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.user-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.user-actions .login-btn {
+    background-color: white;
+    color: #2874f0;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+.button {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size:13px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+}
+
+
+/* Product Grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f1f3f6;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 50%;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #ff5722;
+}
+
+.product-card button {
+    background-color: #2874f0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: red;
+    color: white;
+   
+}
+
+.highlight {
+    color: blue; /* Change the color to blue or any color you prefer */
+    font-weight: bold; /* Optional: Makes the text bold */
+}
+
+s {
+    color: red;
+   text-align: center;
+   padding-left: 43%;
+    
+}
+
