@@ -1,0 +1,49 @@
+1. Inline JavaScript:-
+
+-->JavaScript is written directly inside an HTML tag using the onclick, onmouseover, or other event attributes.
+-->Used for small actions like button clicks.
+
+code:- <button onclick="alert('Hello!')">Click Me</button>
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Internal JavaScript
+-->JavaScript is written inside the <script> tag within the same HTML file.
+-->Placed inside <head> or <body> of the HTML document.
+code:- 
+------ <!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function greet() {
+            alert("Welcome to my website!");
+        } 
+    </script>
+</head>
+<body>
+    <button onclick="greet()">Click Me</button>
+</body>
+</html>
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+3. External JavaScript
+-->JavaScript code is written in a separate (.js) file and linked to the HTML file using the <script> tag.
+
+code:-
+       <!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js">   </script>
+</head>
+<body>
+    <button onclick="greet()">Click Me</button>
+</body>
+</html>
+-----------------------------------------------------------------------
+-->External JavaScript File (script.js)
+code:-
+       function greet() {
+    alert("Welcome to my website!");
+}
+                                         --  Best for large projects or when JavaScript is used across multiple pages.--
+
+
